@@ -9,7 +9,7 @@ HOMEPAGE = "http://gnu.org/software/classpath/inetlib.html"
 LICENSE = "GPL-2.0-with-GCC-exception"
 LIC_FILES_CHKSUM = "file://COPYING;md5=0636e73ff0215e8d672dc4c32c317bb3"
 
-SRC_URI = "http://ftp.gnu.org/gnu/classpath/${BP}.tar.gz \
+SRC_URI = "${GNU_MIRROR}/classpath/${BP}.tar.gz \
            file://datadir_java.patch \
            file://inetlib-missing-dependency-for-util_classes.patch \
           "

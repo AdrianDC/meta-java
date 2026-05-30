@@ -5,7 +5,7 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=a916467b91076e631dd8edb7424769c7"
 
 PR = "r1"
 
-SRC_URI = "http://ftp.gnu.org/gnu/classpathx/activation-${PV}.tar.gz \
+SRC_URI = "${GNU_MIRROR}/classpathx/activation-${PV}.tar.gz \
            file://datadir_java.patch \
            file://MimeType-symbols-fix.patch \
           "
