@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=a2b2e5b95bf768dd5c4ca097c9cde9e9"
 
 HOMEPAGE = "http://www.jcraft.com/jzlib"
 
-SRC_URI = "http://www.jcraft.com/jzlib/jzlib-${PV}.tar.gz"
+SRC_URI = "https://src.fedoraproject.org/repo/pkgs/jzlib/jzlib-${PV}.tar.gz/3c52a0afb970e8a1fb2d34f30d330a83/jzlib-${PV}.tar.gz"
 
 inherit java-library
 
